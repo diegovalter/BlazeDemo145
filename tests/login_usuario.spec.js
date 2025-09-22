@@ -1,6 +1,6 @@
 const { test, expect } = require('@playwright/test')
 
-test('Realizar compra de passagem', async ({page}) => {
+test('Realizar Login', async ({page}) => {
 
     // Acessar o Site
     await page.goto('/')
